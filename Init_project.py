@@ -10,3 +10,4 @@ for shop, products in shopping_list.items():
     print(f"Idę do {shop.capitalize()}, kupuję tam następujące rzeczy: {', '.join(products_capitalized)}")
 total_items = sum(len(items) for items in shopping_list.values())
 print(f"W sumie kupuję {total_items} produktów.")
+print("Witam szanownego mentora po długiej przerwie :)")
