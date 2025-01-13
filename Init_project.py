@@ -2,7 +2,7 @@ shopping_list = {
     "piekarnia": ["chleb", "bułki", "pączek"],
     "warzywniak": ["marchew", "seler", "rukola"],
     "apteka": ["witamina C", "elektrolity"],
-    "lidl": ["pinsa"]
+    "lidl": ["pinsa", "salami"]
 }
 for shop, products in shopping_list.items():
     products_capitalized = [product.capitalize() for product in products]
